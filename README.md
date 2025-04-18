@@ -1,12 +1,17 @@
-# Fitclub
+# Fitclub 🏋️‍♀️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fitclub** ist eine moderne Fitness-Website, die Informationen über unsere Angebote, Kurse und Mitgliedschaftsmöglichkeiten bietet.
 
-Currently, two official plugins are available:
+## Seiten
 
-- 
-- 
+- **Home**: Landing Page mit Übersicht und Call-to-Action
+- **Über uns**: Informationen zu unserem Team und unserer Mission
+- **Angebote**: Kursübersicht und Preise
+- **Mitglied werden**: Registrierung und Mitgliedsvorteile
+- **Kontakt**: Kontaktformular und Öffnungszeiten
 
-## Expanding the ESLint configuration
+## Technologien
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS
