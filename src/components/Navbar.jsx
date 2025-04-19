@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-black text-white">
+    <nav className="fixed z-10 w-full bg-black text-white">
       <div className="flex justify-between p-2">
         <h1 className="p-4 text-4xl font-bold">FITCLUB</h1>
         <ul className="flex gap-12 justify-center p-4 text-lg">
