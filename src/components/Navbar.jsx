@@ -8,7 +8,7 @@ export default function Navbar() {
         <ul className="flex gap-12 justify-center p-4 text-lg">
           <li>
             <Link className="hover:text-yellow-300" to="/">
-              Home
+              Start
             </Link>
           </li>
           <li>
