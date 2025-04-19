@@ -1,4 +1,4 @@
-export default function HomePage() {
+export default function StartPage() {
   return (
     <div className="min-h-screen">
       <div className="relative">
@@ -26,7 +26,7 @@ export default function HomePage() {
         <h2 className="text-4xl mb-6 font-bold self-center">
           FITCLUB - MORE THAN A SIMPLE GYM
         </h2>
-        <p className="text-xl">
+        <p className="text-xl text-center">
           FITCLUB is more than just a traditional gym. The FITCLUB group
           consists of 38 studios and is characterized by unique design, fitness
           equipment from award-winning brands, a wide range of classes, and
