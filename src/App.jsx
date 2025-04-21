@@ -3,7 +3,7 @@ import MembershipPage from "./pages/MembershipPage";
 import ContactPage from "./pages/ContactPage";
 import StartPage from "./pages/StartPage";
 import JoinPage from "./pages/JoinPage";
-import ServicesPage from "./pages/ServicesPage";
+import CoursesPage from "./pages/CoursesPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -16,7 +16,7 @@ function App() {
         <Route path="/membership" element={<MembershipPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/join-us" element={<JoinPage />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/courses" element={<CoursesPage />} />
       </Routes>
       <Footer />
     </Router>
