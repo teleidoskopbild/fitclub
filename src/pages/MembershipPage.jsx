@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function MembershipPage() {
   useEffect(() => {
@@ -52,7 +53,7 @@ export default function MembershipPage() {
           and start your fitness journey with the best team by your side!
         </p>
         <button className="mt-6 px-8 py-3 border border-black text-xl rounded-full bg-black text-white">
-          Learn More
+          <Link to="/courses">Learn More</Link>
         </button>
       </div>
     </div>
