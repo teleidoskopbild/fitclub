@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 export default function StartPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen">
       <div className="relative">
@@ -11,7 +17,7 @@ export default function StartPage() {
           <p className="text-8xl text-white bg-black p-4 mt-4 skew-x-[-10deg]">
             FREE
           </p>
-          <button className="cursor-pointer w-[250px] md:w-full text-4xl text-white mt-12 border border-3 p-4 rounded-full bg-black/75">
+          <button className="cursor-pointer w-[250px] md:w-full text-4xl text-white mt-12 border border-3 p-4 rounded-full bg-black/75 transform transition hover:scale-105 duration-500">
             GET YOUR 12 FREE WEEKS
           </button>
         </div>
@@ -49,7 +55,7 @@ export default function StartPage() {
           </p>
 
           <button className="cursor-pointer w-[500px]  text-3xl text-black uppercase mt-12 p-4  bg-white rounded-xl hover:bg-black hover:text-white transition-colors duration-300">
-            Discover Our Offers Now
+            <Link to="/membership">Discover Our Offers Now</Link>
           </button>
         </div>
       </div>
