@@ -16,27 +16,36 @@ export default function MembershipPage() {
           <h2 className="text-2xl mb-4">Basic</h2>
           <p className="text-lg mb-4">Access to gym and basic equipment</p>
           <p className="text-3xl font-bold mb-6">€29/mo</p>
-          <button className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer">
+          <Link
+            to="/join-us?plan=Basic"
+            className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer"
+          >
             Select
-          </button>
+          </Link>
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md text-center border-2 border-black flex flex-col justify-between">
           <h2 className="text-2xl mb-4">Standard</h2>
           <p className="text-lg mb-4">Includes group classes & sauna</p>
           <p className="text-3xl font-bold mb-6">€49/mo</p>
-          <button className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer">
+          <Link
+            to="/join-us?plan=Standard"
+            className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer"
+          >
             Select
-          </button>
+          </Link>
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md text-center flex flex-col justify-between">
           <h2 className="text-2xl mb-4">Premium</h2>
           <p className="text-lg mb-4">All-inclusive access + coaching</p>
           <p className="text-3xl font-bold mb-6">€69/mo</p>
-          <button className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer">
+          <Link
+            to="/join-us?plan=Premium"
+            className="border border-black px-6 py-2 rounded-full hover:bg-yellow-300 cursor-pointer"
+          >
             Select
-          </button>
+          </Link>
         </div>
       </div>
       <div className="text-center mt-12 w-3/4 mx-auto">
