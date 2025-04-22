@@ -10,7 +10,7 @@ export default function StartPage() {
       <div className="relative">
         <img className="w-full h-[800px] object-cover" src="homepic.jpg" />
         <div className="flex  flex-col items-center absolute top-1/6 left-1/2 -translate-x-1/2  p-4">
-          <p className="text-3xl text-white  ">JOIN NOW & GET</p>
+          <p className="text-3xl text-white font-bold">JOIN NOW & GET</p>
           <p className="text-4xl lg:text-8xl text-white bg-black p-4 mt-4 skew-x-[-10deg]">
             12 WEEKS
           </p>
@@ -29,10 +29,10 @@ export default function StartPage() {
         </p>
       </div>
       <div className="mt-8 mb-8 p-12 w-full md:w-2/3 text-center  bg-white-400 flex flex-col mx-auto">
-        <h2 className="text-3xl md:text-4xl mb-6 font-bold self-center">
-          FITCLUB - MORE THAN A SIMPLE GYM
+        <h2 className="text-3xl md:text-4xl mb-6 font-bold self-center font-amulya">
+          MORE THAN A SIMPLE GYM
         </h2>
-        <p className="text-md md:text-xl text-center">
+        <p className="text-md md:text-xl text-center font-synonym">
           FITCLUB is more than just a traditional gym. The FITCLUB group
           consists of 38 studios and is characterized by unique design, fitness
           equipment from award-winning brands, a wide range of classes, and
@@ -48,8 +48,10 @@ export default function StartPage() {
           src="homepic2.jpg"
         />
         <div className="flex  flex-col   absolute top-1/6 md:top-1/3  text-center items-center right-1/2 transform translate-x-1/2">
-          <p className="text-3xl text-white ">REQUEST A FREE TRIAL WORKOUT</p>
-          <p className="text-md md:text-2xl w-full md:w-3/4  text-white p-4 mt-4 text-center">
+          <p className="text-3xl text-white font-amulya">
+            REQUEST A FREE TRIAL WORKOUT
+          </p>
+          <p className="text-md md:text-2xl w-full md:w-3/4  text-white p-4 mt-4 text-center font-synonym">
             Choose one of our many fitness options for a personalized trial
             session, or join one of our wide range of classes.
           </p>
