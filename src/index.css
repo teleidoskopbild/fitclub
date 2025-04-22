@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Amulya";
+  src: url("/fonts/Amulya-Variable.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Synonym";
+  src: url("/fonts/Synonym-Variable.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-amulya {
+  font-family: "Amulya", sans-serif;
+}
+
+.font-synonym {
+  font-family: "Synonym", sans-serif;
+}
