@@ -19,40 +19,44 @@ export default function Navbar() {
           <div className="w-6 h-1 bg-white"></div>
         </button>
 
-        {isOpen && (
-          <div className="fixed inset-0 bg-black text-white flex flex-col items-center justify-center z-20 space-y-6 text-2xl">
-            <button
-              onClick={toggleMenu}
-              className="absolute top-4 right-6 text-4xl"
-            >
-              ×
-            </button>
-            <Link className="hover:text-yellow-300" to="/" onClick={toggleMenu}>
-              Start
-            </Link>
-            <Link
-              className="hover:text-yellow-300"
-              to="/membership"
-              onClick={toggleMenu}
-            >
-              Membership
-            </Link>
-            <Link
-              className="hover:text-yellow-300"
-              to="/courses"
-              onClick={toggleMenu}
-            >
-              Courses
-            </Link>
-            <Link
-              className="bg-yellow-300 text-black rounded-full p-4 hover:text-white hover:bg-yellow-400"
-              to="/join-us"
-              onClick={toggleMenu}
-            >
-              Join Us
-            </Link>
-          </div>
-        )}
+        <div
+          className={`fixed inset-0 bg-black text-white flex flex-col items-center justify-center z-20 space-y-6 text-2xl transition-all duration-300 ease-in-out ${
+            isOpen
+              ? "translate-y-0 opacity-100 visible"
+              : "-translate-y-25 opacity-0 invisible"
+          }`}
+        >
+          <button
+            onClick={toggleMenu}
+            className="absolute top-4 right-6 text-4xl"
+          >
+            ×
+          </button>
+          <Link className="hover:text-yellow-300" to="/" onClick={toggleMenu}>
+            Start
+          </Link>
+          <Link
+            className="hover:text-yellow-300"
+            to="/membership"
+            onClick={toggleMenu}
+          >
+            Membership
+          </Link>
+          <Link
+            className="hover:text-yellow-300"
+            to="/courses"
+            onClick={toggleMenu}
+          >
+            Courses
+          </Link>
+          <Link
+            className="bg-yellow-300 text-black rounded-full p-4 hover:text-white hover:bg-yellow-400"
+            to="/join-us"
+            onClick={toggleMenu}
+          >
+            Join Us
+          </Link>
+        </div>
 
         <ul className="hidden lg:flex gap-12 justify-center p-4 text-lg">
           <li>
